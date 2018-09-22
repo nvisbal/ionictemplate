@@ -7,7 +7,7 @@ ionictemplate is a basic template ionic 4 and angular 6 fully functional, provid
 1. Provide a page login with 3 options: user and email, log in with facebbok and log in to google.
 2. Provide a page signup with user and email, facebook and google.
 3. Using [ngx/translate](https://github.com/ngx-translate/core) for language handling.
-4. Implements 
+4. Implements the forgot password process.
 
 # Prerequisites
 
