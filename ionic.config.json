@@ -1,0 +1,7 @@
+{
+  "name": "basicappionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

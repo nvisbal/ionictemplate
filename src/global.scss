@@ -1,0 +1,35 @@
+// http://ionicframework.com/docs/theming/
+@import "~@ionic/angular/css/core.css";
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+ion-button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-right{
+    margin-right: 10px;
+}
+
+//Forms
+.allForm{
+    margin-top: 2rem;
+}
+.content-inputs{
+    margin-bottom: 2rem;
+}
+.input-error{
+    color:red;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+//Fin Forms

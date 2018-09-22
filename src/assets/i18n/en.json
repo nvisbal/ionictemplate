@@ -1,0 +1,52 @@
+{
+	"commons.email": "Email",
+	"commons.password": "Password",
+	"commons.input-required": "Field is required",
+	"commons.input-notemail": "Email address not in the correct format ",
+	
+	
+	"auth/network-request-failed": "There is a problem trying to establish the connection.",
+	"auth/popup-closed-by-user": "It seems that the window has been closed before the operation is finished.",
+	"auth/cancelled-popup-request": "It seems that your browser has blocked the pop-up window.",
+	"auth/email-already-in-use": "The user trying to register already exists.",
+	"auth/invalid-email": "The email entered is not correct",
+	"auth/user-not-found": "The user has not been found",
+	"auth/wrong-password": "The password entered does not match the one registered",
+	
+	"alert.title": "Information",
+	"alert.wait": "Please wait, your request is being processed ...",
+	"alert.error": "An inconvenience has occurred with the requested process",	
+
+	"login.title":"Title",
+	"login.subtitle":"Subtitle",
+	"login.login":"Log in",
+	"login.loginwithfacebook":"Log in with Facebook",
+	"login.loginwithgoogle":"Log in with Google",
+	"login.singup":"Sign in",
+	"login.forgotpassword":"Forgot your password?",
+	"login.text1":"You are not yet registered?, join us",
+	
+	"signup.title":"User register",
+	"signup.subtitle":"Creating an account",
+	"signup.firstname":"First name",
+	"signup.seccondtname":"Last name",
+	"signup.lastname":"Last name",
+	"signup.birthdate":"birthdate",
+	"signup.continue":"Continue",
+	"signup.signupwithfacebook":"Sign up with Facebook",
+	"signup.signupwithgoogle":"Sign up with Google",
+	"signup.createuser":"An error occurred trying to save user data",
+	"signup.errorwithgoogle":"Error registering the user through access with Google",
+	"signup.errorwithfacebook":"Error registering the user through access with Facebook",
+
+	"signup.text1":"By clicking on 'register with ...' you are accepting our ",
+	"signup.and":" and ",
+	"signup.terms":"terms of service",
+	"signup.privacy":"privacy policies",
+	"signup.text2":"Occasionally we can send you informative emails to your account",
+
+	"forgotpassword.title": "Recover password",
+	"forgotpassword.subtitle": "Recovery of the account",
+	"forgotpassword.continue": "Send me an email",
+	"forgotpassword.message": "Please check your email for password reset"
+}	

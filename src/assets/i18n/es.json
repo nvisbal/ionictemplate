@@ -1,0 +1,52 @@
+{
+	"commons.email": "Correo",
+	"commons.password": "Contraseña",
+	"commons.input-required": "Campo es requerido",
+	"commons.input-notemail": "El correo no parece ser correcto",
+	
+	
+	"auth/network-request-failed": "Existe un problema intentando establecer la conexión.",
+	"auth/popup-closed-by-user": "Al parecer se ha cerrado la ventana antes de finalizar la operación.",
+	"auth/cancelled-popup-request": "Parece que su navegador ha bloqueado la ventana emergente.",
+	"auth/email-already-in-use": "El usuario que intenta registrar ya existe.",
+	"auth/invalid-email": "El email ingresado no es correcto",
+	"auth/user-not-found": "El usuario no ha sido encontrado",
+	"auth/wrong-password": "La contraseña ingresada no coincide con la registrada",
+	
+	"alert.title": "Información",
+	"alert.wait": "Por favor espere, se está procesando su solicitud...",
+	"alert.error": "Ha ocurrido un inconveniente con el proceso solicitado",	
+
+	"login.title":"Título",
+	"login.subtitle":"Subtítulo",
+	"login.login":"Iniciar sesión",
+	"login.loginwithfacebook":"Iniciar con Facebook",
+	"login.loginwithgoogle":"Iniciar con Google",
+	"login.singup":"Registrarse",
+	"login.forgotpassword":"¿Olvidaste tu contraseña?",
+	"login.text1":"¿Todavía no estás registrado?, únete a nosotros",
+	
+	"signup.title":"Registro de usuario",
+	"signup.subtitle":"Creando una cuenta",
+	"signup.firstname":"Nombres",
+	"signup.seccondtname":"Segundo Nombre",
+	"signup.lastname":"Apellidos",
+	"signup.birthdate":"Fecha de nacimiento",
+	"signup.continue":"Continuar",
+	"signup.signupwithfacebook":"Registrarse con Facebook",
+	"signup.signupwithgoogle":"Registrarse con Google",
+	"signup.createuser":"Ha ocurrido un error intentando guardar los datos del usuario",
+	"signup.errorwithgoogle":"Error registrando el usuario mediante acceso con Google",
+	"signup.errorwithfacebook":"Error registrando el usuario mediante acceso con Facebook",
+
+	"signup.text1":"Al hacer click en 'registrarse con...' estás aceptando nuestros ",
+	"signup.and":" y ",
+	"signup.terms":"términos de servicio",
+	"signup.privacy":"políticas de privacidad",
+	"signup.text2":"Ocasionalmente podremos enviarte correos informativos a tu cuenta",
+
+	"forgotpassword.title": "Recuperar contraseña",
+	"forgotpassword.subtitle": "Recuperación de la cuenta",
+	"forgotpassword.continue": "Enviarme un correo",
+	"forgotpassword.message": "Revise por favor su correo para el reestablecimiento de la contraseña"
+}	

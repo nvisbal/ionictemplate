@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="arrow-back"></ion-back-button>
+    </ion-buttons>
+    <ion-title text-center>{{'signup.title' | translate}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h4>{{'signup.subtitle' | translate}}</h4>
+  <form class="signupForm allForm" [formGroup]="dataForm" (ngSubmit)="signUp()" novalidate>
+    <div class="content-inputs">
+      <ion-item>
+        <ion-input required type="email" placeholder="{{'commons.email' | translate}}" formControlName="email"></ion-input>
+      </ion-item>
+      <p class="input-error" *ngIf="dataForm.get('email').errors && dataForm.get('email').dirty && dataForm.get('email').hasError('required')">{{'commons.input-required'
+        | translate }}</p>
+      <p class="input-error" *ngIf="dataForm.get('email').errors && dataForm.get('email').dirty && dataForm.get('email').hasError('pattern')">{{'commons.input-notemail'
+        | translate }}</p>
+
+      <ion-item>
+        <ion-input required type="password" placeholder="{{'commons.password' | translate}}" formControlName="password"></ion-input>
+      </ion-item>
+      <p class="input-error" *ngIf="dataForm.get('password').errors && dataForm.get('password').dirty && dataForm.get('password').hasError('required')">{{'commons.input-required'
+        | translate }}</p>
+      <ion-item>
+        <ion-input required type="text" placeholder="{{'signup.firstname' | translate}}" formControlName="firstname"></ion-input>
+      </ion-item>
+      <p class="input-error" *ngIf="dataForm.get('firstname').errors && dataForm.get('firstname').dirty && dataForm.get('firstname').hasError('required')">{{'commons.input-required'
+        | translate }}</p>
+
+      <ion-item>
+        <ion-input required type="text" placeholder="{{'signup.lastname' | translate}}" formControlName="lastname"></ion-input>
+      </ion-item>
+      <p class="input-error" *ngIf="dataForm.get('lastname').errors && dataForm.get('lastname').dirty && dataForm.get('lastname').hasError('required')">{{'commons.input-required'
+        | translate }}</p>
+    </div>
+    <ion-button expand="full" type="submit" [disabled]="dataForm.invalid">
+      {{'signup.continue' | translate}}
+    </ion-button>
+    <p>
+        {{'signup.text1' | translate}}
+        <a class="" href="" target="_blank"> {{'signup.terms' | translate}}</a>  {{'signup.and' | translate}}
+        <a class="" href="" target="_blank"> {{'signup.privacy' | translate}}</a>.<span> {{'signup.text2' | translate}}.</span>
+      </p>
+    <ion-button expand="full" (click)="signUpWithFacebook()">
+      <ion-icon name="logo-facebook" class="icon-right"></ion-icon>{{'signup.signupwithfacebook' | translate}}
+    </ion-button>
+    <ion-button color="danger" expand="full" (click)="signUpWithGoogle()">
+      <ion-icon name="logo-google" class="icon-right"></ion-icon>{{'signup.signupwithgoogle' | translate}}
+    </ion-button>
+  </form>
+</ion-content>
