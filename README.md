@@ -1,4 +1,4 @@
-# What is ionictemplate?
+# What is ionic starter?
 
 ionictemplate is a basic template ionic 4 and angular 6 fully functional, provide one page of login, signup and forgot password using firebase like a BaaS.
 
